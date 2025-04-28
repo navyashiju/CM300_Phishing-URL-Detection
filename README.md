@@ -14,7 +14,7 @@ The research questions that aim to be answered within this body of work are:
 
 To do so, this project investigates the development of a phishing URL detection system using machine learning techniques. The system focuses solely on URL-based features, allowing for fast and accurate classification without relying on webpage content or external service queries.
 
-Three baseline models—Decision Tree, Random Forest, and Support Vector Machine—were implemented, optimised, and evaluated. A hybrid model was also developed by stacking the optimised Random Forest and SVM models with XGBoost acting as the meta-classifier. The models were assessed on both predictive accuracy and real-time inference efficiency to reflect the demands of corporate cybersecurity environments.
+Three baseline models, which included Decision Tree, Random Forest, and Support Vector Machine, were implemented, optimised, and evaluated. A hybrid model was also developed by stacking the optimised Random Forest and SVM models with XGBoost acting as the meta-classifier. The models were assessed on both predictive accuracy and real-time inference efficiency to reflect the demands of corporate cybersecurity environments.
 
 ## Key Features
 - Preprocessing of publicly available phishing URL dataset
