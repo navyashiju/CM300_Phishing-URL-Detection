@@ -12,7 +12,7 @@ The research questions that aim to be answered within this body of work are:
 1. How will a hybrid machine learning model perform in terms of real-time efficiency when compared to individually trained models?
 2. Which Machine Learning models will have the highest accuracy in predicting the authenticity of a Phishing URL?
 
-To do so, this project investigates the development of a phishing URL detection system using machine learning techniques. The system focuses solely on URL-based features, enabling lightweight, fast, and accurate classification without relying on webpage content or external service queries.
+To do so, this project investigates the development of a phishing URL detection system using machine learning techniques. The system focuses solely on URL-based features, allowing for fast and accurate classification without relying on webpage content or external service queries.
 
 Three baseline models—Decision Tree, Random Forest, and Support Vector Machine—were implemented, optimised, and evaluated. A hybrid model was also developed by stacking the optimised Random Forest and SVM models with XGBoost acting as the meta-classifier. The models were assessed on both predictive accuracy and real-time inference efficiency to reflect the demands of corporate cybersecurity environments.
 
